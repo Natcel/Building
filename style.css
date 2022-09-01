@@ -1,0 +1,404 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+p{ 
+    font-family: 'Inter';
+    line-height: 2;
+    letter-spacing: 0%;
+}
+
+/* CONTAINERS */
+
+.container-fluid{
+    margin: 0 0 100px 0;
+}
+
+/* HEADINGS */
+
+.largest-heading{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+.courses-header{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1;
+}
+.benefit-header{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.instructor-header{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.mobile-heading{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* NAVBARS */
+
+.nav-main{
+    padding: 0 6rem 4.5rem 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1rem;
+}
+.nav-courses{
+    padding: 0 6rem 4.5rem 0;
+}
+.navbar-courses{
+    border: 1px solid #00966B;
+    border-radius: 8px;
+    padding: 1rem;
+}
+.arts{
+    background-color: #00966B;
+    color: white;
+    border-radius: 8px;
+}
+.view{
+ color: #00966B;
+}
+
+/* BUTTONS */
+
+.info-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* HOME ///////////////////////////*/
+
+#home{
+    text-align: left;
+}
+.angel{
+    display: flex;
+    padding: 0 0 4.5rem 0;
+}
+.layer{
+    padding: 0 18px;
+    text-align: center;
+}
+.moved-bg{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #08392B;
+}
+.fa-circle-play{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 12rem;
+    left: 12rem;
+}
+.titlep{
+    position: absolute;
+    width: 85%;
+    bottom: 30px;
+    right: 120px;
+}
+
+/* COURSES //////////////////*/
+
+#courses .row{
+    width: 98%;
+    padding: 0 2%;
+}
+.enroll{
+    text-decoration: none;
+    color: black;
+}
+
+/*BENEFITS/////////////////////*/
+.you{
+    text-align: center;
+    padding-bottom: 4%;
+}
+.container-benefits{
+    width: 85%;
+    padding: 0 5% 5%;
+}
+.sittinggirl{
+    width: 35%;
+    float: left;
+    margin-right: 95px;
+}
+.grid-icons{
+    padding: 0 5% 2% 0;
+}
+.objectives{
+    margin-top: 15rem;
+}
+.ingroup{
+    width: 30%;
+    float: right;
+}
+
+
+/* INSTRUCTORS //////////////////*/
+
+#Instructors{
+    text-align: center;
+}
+.faces img{
+    padding: 10px 18px;
+}
+.faces img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+} 
+.dele{
+    width: 22%;
+}
+/* EXPERIMENT */
+
+.container {
+    position: relative;
+    width: 25%;
+}
+  
+  .image {
+    opacity: 1;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+  
+  .container:hover .image {
+    opacity: 0.3;
+}
+  
+  .container:hover .middle {
+    opacity: 1;
+}
+  
+  .text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+/* CALL TO ACTION ////////////////*/
+
+#cta{
+    position: relative;
+    background-color: black;
+    min-height: 28rem;
+    width: 75%;
+    margin: 15px auto 75px;
+    padding: 3rem;
+    border-radius: 3px;
+}
+.app{
+    font-family: 'Inter';
+    color: white;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.stores span{
+    font-weight: bold;
+}
+.iphonetop{
+    position: absolute;
+    left: 63%;
+    bottom: 0.5%;
+}
+.phonebottom{
+    position: absolute;
+    left: 82%;
+    bottom: 54%;
+}
+ .mdi-36px {
+    font-size: 39px;
+    margin-right:10px;
+}
+.container{   
+    margin-top:60px;
+}
+
+ /* SIGN  //////////////////*/
+
+ #sign{
+    position: relative;
+    background-color: #00966B;
+    text-align: center;
+    padding: 40px;
+}
+
+.tag{
+    color: white;
+    font-family: 'Inter';
+}
+.gag{
+    color: white;
+    font-family: 'Inter';
+}
+.submission{
+    background-color: white;
+    border: none;
+    margin: 20px 0 20px 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.submit{
+    padding: 20px;
+    border: none;
+    background-color: #157347;
+    border-radius: 5px;
+}
+.submit:hover{
+    background-color: #198754;
+}
+
+/* ABOUT US//////////// */
+
+#footing{
+    position: relative;
+    background-color: #1A4D2E;
+    padding: 40px;
+}
+#footing a{
+    text-decoration: none;
+    color: #109b74;
+}
+#footing a:hover{
+    color: gainsboro;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.bone{
+    color: #109b74;
+}
+.footer{
+    color: white;
+} 
+.tc{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* MEDIA QUERIES ///////////*/
+
+@media (max-width: 1110px) {
+
+    /* HOME */
+
+    #home .container-fluid{
+        padding: 3% 15% 7%;
+    }
+    #home{
+        text-align: center;
+    }
+    .moved-bg{
+        position: relative;
+        margin-top: 50px;
+    }
+    .titlep{
+        position: absolute;
+        width: 28rem;
+        /* bottom: 80px; */
+    }
+    .fa-circle-play{
+        position: absolute;
+        z-index: 1;
+        top: 10rem;
+    }
+}
+/* COURSES  */
+
+@media (max-width: 1275px) and (min-width: 991px) {
+
+    .enroll{
+        display: flex;
+        flex: 100%;
+        flex-wrap: wrap;
+    }
+    .flex-enroll{
+        flex: 50%;
+    }
+}
+
+ /* BENEFITS */
+
+@media (max-width: 890px) {
+    
+    /* .sittinggirl{
+        clear: both;
+    }  */
+} 
+
+/* INSTRUCTORS */
+
+@media (max-width: 1300px) and (min-width: 992px) {
+    .container{
+    width: 35%;
+    } 
+ }
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .container{
+        width: 35%;
+    } 
+}
+
+@media (max-width: 768px) and (min-width: 600px) {
+    .container{
+        width: ;
+    }
+}
+
+@media (max-width: 600px) {
+    .container{
+        width: ;
+    }
+}
+
+/* CTA  */
+
+@media (max-width: 1201px) {
+
+    .iphonetop{
+        visibility: hidden;
+    }
+    .phonebottom{
+        visibility: hidden;
+    }
+}
+
+/* ABOUT US //////// */
+
+@media (max-width: 910px) {
+
+    /* .company{
+        float: right;
+    }
+    .footer{
+        clear: left;
+    } */
+}
